@@ -204,9 +204,9 @@ a {
 }
 
 .about-image {
-  width: 240px;
+  width: 300px;
   border-radius: 10px;
-  background-color: #e3e0f3;
+  background-color:#aadacd;
   display: block;
   object-fit: contain;
 }
@@ -216,7 +216,7 @@ a {
   width: 31.25%;
   height: 300px;
   border-radius: 10px;
-  background-color: #e3e0f3;
+  background-color:#80c4b2;
   object-fit: contain;
 }
 
