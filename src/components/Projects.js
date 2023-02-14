@@ -17,9 +17,9 @@ const Projects = () => {
         var image3 = document.querySelector('.image3')
         var image4 = document.querySelector('.image4')
         image1.style.opacity = (window.scrollY - (1*window.outerHeight))/window.outerHeight
-        image2.style.opacity = (window.scrollY - (2*window.outerHeight))/window.outerHeight + 0.35
-        image3.style.opacity = (window.scrollY - (3*window.outerHeight))/window.outerHeight + 0.55
-        image4.style.opacity = (window.scrollY - (4*window.outerHeight))/window.outerHeight + 0.85
+        image2.style.opacity = (window.scrollY - (2*window.outerHeight))/window.outerHeight
+        image3.style.opacity = (window.scrollY - (3*window.outerHeight))/window.outerHeight
+        image4.style.opacity = (window.scrollY - (4*window.outerHeight))/window.outerHeight
     }   
 
   return (
@@ -42,9 +42,9 @@ const Projects = () => {
             </div>
             <img className="responsive_project_image" src={hmsImage} alt=""/>
             <div>
-                The accessibility of the patients to book an appointment from the portal.
-                The doctors can login through the portal and can further check/reschedule 
-                the scheduled appointment by selecting the dates. 
+                The app is about the accessibility of the patients to book an appointment through the portal.
+                It also let doctors to login through the portal and provides the functionality to check and reschedule 
+                the scheduled appointments by selecting the dates. 
             </div>
             <div>MongoDB, Express, React, Node js, MATERIAL UI</div>
         </div>
@@ -59,10 +59,11 @@ const Projects = () => {
             </div>
             <img className="responsive_project_image" src={bookImage} alt=""/>
             <div>
-                An app to add the book information to the database.
-                to get all the books from database for library purpose.
+                A responsive app built for the librarian which takes care of different needs
+                hence enabling to add the book information to the database,
+                to get all the books from database for library purpose,
                 to retrieve the books as per the book name, genre, and author name.
-                One can filter the books based on the price range.
+                One can also filter the books based on the price range.
             </div>
             <div>Python, Flask, HTML, CSS</div>
         </div>
@@ -77,8 +78,7 @@ const Projects = () => {
             </div>
             <img className="responsive_project_image" src={wdImage} alt=""/>
             <div>
-                The web Application serves an organization advertisements 
-                to the online presence.
+                An interactive and respponsive web Application developed for an organization to serve advertisement of their business model.
             </div>
             <div>HTML, CSS, Javascript</div>
         </div>
@@ -93,7 +93,7 @@ const Projects = () => {
             </div>
             <img className="responsive_project_image" src={tttImage} alt=""/>
             <div>
-                A two Player game renders user to modify their name and also tracks number 
+                A fun purpose two Player game that renders users to modify their name, play with either human or computer, and also tracks the number 
                 of games played, draws and winning count respectively.
             </div>
             <div>HTML, CSS, Javascript</div>
