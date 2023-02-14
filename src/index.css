@@ -371,6 +371,7 @@ a {
     font-family: "A Pompadour Bold W00 Regular","Helvetica Neue Light","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-left: -4px;
     margin-top: 16px;
+    margin-bottom: -15px;
     font-size: calc(68px + 68 * ((100vw - 320px) / 1320));
 }
 
@@ -624,10 +625,10 @@ a {
   }
 
   .project-description > div {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .responsive_project_image {
@@ -636,6 +637,22 @@ a {
     height: 30%;
     width: 80%;
     margin: 30px 0 12px 0;
+  }
+
+  .project-description div div:nth-of-type(2) div:nth-of-type(1) {
+    margin-bottom: -5px;
+  }
+
+  .project-description div div:nth-of-type(2) div:nth-of-type(2) {
+    width: 90px;
+    font-size: 20px;
+    padding: 10px 10px 4px 10px;
+    height: 45px;
+    margin-left: 30px;
+  }
+
+  .project-description div div:nth-of-type(2) div:nth-of-type(2) a {
+    font-size: 25px;
   }
 
   /* FOOTER */
