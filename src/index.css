@@ -237,7 +237,6 @@ a {
 .about-description > div:nth-of-type(2) {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
 }
 
 .skills-container{
@@ -309,7 +308,6 @@ a {
 .project-images {
   position: sticky;
   top: 28%;
-  /* bottom: 28%; */
 
   height: 350px;
   width: 40%;
@@ -335,8 +333,7 @@ a {
 .project-description > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: auto 0;
+  /* justify-content: center; */
 }
 
 .project-description div div:nth-of-type(1), .project-description div div:nth-of-type(2), .project-description div div:nth-of-type(4) {
@@ -450,7 +447,7 @@ a {
 /* DESKTOP VIEW */ 
 @media only screen and (min-width: 601px) {
   .project-description > div {
-    height: 100vh;
+    margin: 200px 0;
   }
 }
 

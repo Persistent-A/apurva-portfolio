@@ -78,7 +78,7 @@ const Projects = () => {
             </div>
             <img className="responsive_project_image" src={wdImage} alt=""/>
             <div>
-                An interactive and respponsive web Application developed for an organization to serve advertisement of their business model.
+                An interactive and responsive web Application developed for an organization to serve advertisement of their business model.
             </div>
             <div>HTML, CSS, Javascript</div>
         </div>
