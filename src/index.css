@@ -9,6 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "A Pompadour W05 Regular","Helvetica Neue Light","Helvetica Neue","Helvetica","Arial",sans-serif;
   position: relative;
+
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 html {
@@ -302,7 +305,8 @@ a {
   justify-content: center;
   position: relative;
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
 .project-images {
@@ -333,7 +337,11 @@ a {
 .project-description > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.project-description div:nth-of-type(4) {
+  height: 450px;
 }
 
 .project-description div div:nth-of-type(1), .project-description div div:nth-of-type(2), .project-description div div:nth-of-type(4) {

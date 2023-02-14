@@ -16,10 +16,10 @@ const Projects = () => {
         var image2 = document.querySelector('.image2')
         var image3 = document.querySelector('.image3')
         var image4 = document.querySelector('.image4')
-        image1.style.opacity = (window.scrollY - (1*window.outerHeight))/window.outerHeight
-        image2.style.opacity = (window.scrollY - (2*window.outerHeight))/window.outerHeight
-        image3.style.opacity = (window.scrollY - (3*window.outerHeight))/window.outerHeight
-        image4.style.opacity = (window.scrollY - (4*window.outerHeight))/window.outerHeight
+        image1.style.opacity = (window.scrollY - (0.5*window.outerHeight))/window.outerHeight
+        image2.style.opacity = (window.scrollY - (1.42*window.outerHeight))/window.outerHeight
+        image3.style.opacity = (window.scrollY - (2.45*window.outerHeight))/window.outerHeight
+        image4.style.opacity = (window.scrollY - (3.3*window.outerHeight))/window.outerHeight
     }   
 
   return (
