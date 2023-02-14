@@ -37,7 +37,7 @@ const About = () => {
                     </div>
                 </div>  
                 <div className="resume">
-                  <a href="adsffadgaf" target='_blank' rel="noopener norefefrer">Download CV</a>
+                  <a href="https://drive.google.com/file/d/1sjzLCKyS-P2bBpWISSz77uqaRZbfuxqM/view?usp=share_link" target='_blank' rel="noopener noreferrer">Download CV</a>
                 </div>
               </div>
             </div>
