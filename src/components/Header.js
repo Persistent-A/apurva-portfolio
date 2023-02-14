@@ -1,9 +1,24 @@
 // ICONS
+import { useState } from "react"
 import logo from "../image/self/apurva-logo.png"
 
 import Hamburger from "./Hamburger"
 
 const Header = () => {
+
+  const [lastScrollPosition, setLastPosition] = useState(window.scrollY)
+
+  window.addEventListener('scroll', () => {
+    var header = document.querySelector('.header')
+    var currentScrollPosition = window.scrollY
+    if (currentScrollPosition > lastScrollPosition) {
+      header.className += ' moveUp'
+      setLastPosition(currentScrollPosition)
+    }
+    else {
+      header.className = 'header'
+    }
+  })
 
   const toggleHamburger = () => {
     const hamIcon = document.querySelector('.hamburger-icon')
