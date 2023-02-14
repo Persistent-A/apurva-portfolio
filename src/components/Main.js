@@ -2,7 +2,7 @@ import {CiMail} from "react-icons/ci"
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main" id="main">
         <div>Hi, I'm Apurva</div>
         <div>Full Stack Developer</div>
         <div>I am a student of Web-Development at TAV College, Montreal.

@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <nav className="header">
         <div>
-          <img className="logo" src={logo} alt=''/>
+        <a href="#main" rel="norefferal"><img className="logo" src={logo} alt=''/></a>
         </div>
         <Hamburger />
         <ul className="menu">

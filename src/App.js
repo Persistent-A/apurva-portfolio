@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Main />
       <About />
+      <h1  className="project-heading">Some Of My Implementations</h1>
       <Projects />
       <Footer />
     </div>
