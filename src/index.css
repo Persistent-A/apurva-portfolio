@@ -333,7 +333,7 @@ a {
 .project-description > div {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .project-description div div:nth-of-type(1), .project-description div div:nth-of-type(2), .project-description div div:nth-of-type(4) {
@@ -447,7 +447,7 @@ a {
 /* DESKTOP VIEW */ 
 @media only screen and (min-width: 601px) {
   .project-description > div {
-    margin: 200px 0;
+    height: 100vh;
   }
 }
 
