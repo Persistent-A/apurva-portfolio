@@ -11,7 +11,7 @@ import {FiExternalLink, FiGithub } from "react-icons/fi"
 // import { useState } from "react"
 
 const Projects = () => {
-    const change = () => {
+    window.addEventListener("scroll", () => {
         var image1 = document.querySelector('.image1')
         var image2 = document.querySelector('.image2')
         var image3 = document.querySelector('.image3')
@@ -28,9 +28,9 @@ const Projects = () => {
         // image2.style.scale = (((window.scrollY - (2*window.outerHeight))/10*window.outerHeight), (window.scrollY - (2*window.outerHeight))/10*window.outerHeight))
         // image3.style.scale = (((window.scrollY - (3*window.outerHeight))/10*window.outerHeight), (window.scrollY - (3*window.outerHeight))/10*window.outerHeight))
         // image4.style.scale = (((window.scrollY - (4*window.outerHeight))/10*window.outerHeight), (window.scrollY - (4*window.outerHeight))/10*window.outerHeight))
-    } 
+    }) 
   return (
-    <div className="projects" onWheel={change} id="projects">
+    <div className="projects" id="projects">
       <div className="project-images">
         <img className="image1" src={hmsImage} alt="" style={{"zIndex": "1"}}/>
         <img className="image2" src={bookImage} alt="" style={{"zIndex": "2"}}/>
