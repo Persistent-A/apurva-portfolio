@@ -476,7 +476,7 @@ a {
   font-size: 25px;
 }
 /* DESKTOP VIEW */ 
-@media only screen and (max-width: 3441px) and (min-width:1201px){
+@media only screen and (max-width: 3441px) and (min-width:1801px){
   .project-description > div {
     height: 80vh;
   }
@@ -486,7 +486,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width:1200px) {
+@media only screen and (min-width: 601px) and (max-width:1800px) {
   .project-description > div {
     height: 100vh;
   }
