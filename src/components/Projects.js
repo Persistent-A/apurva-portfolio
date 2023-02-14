@@ -16,19 +16,26 @@ const Projects = () => {
         var image2 = document.querySelector('.image2')
         var image3 = document.querySelector('.image3')
         var image4 = document.querySelector('.image4')
+        image1.style.transform = 'translate3d(0px, 0px, 0px)'
+        image2.style.transform = 'translate3d(0px, 0px, 0px)'
+        image3.style.transform = 'translate3d(0px, 0px, 0px)'
+        image4.style.transform = 'translate3d(0px, 0px, 0px)'
         image1.style.opacity = (window.scrollY - (0.5*window.outerHeight))/window.outerHeight
         image2.style.opacity = (window.scrollY - (1.42*window.outerHeight))/window.outerHeight
         image3.style.opacity = (window.scrollY - (2.45*window.outerHeight))/window.outerHeight
         image4.style.opacity = (window.scrollY - (3.3*window.outerHeight))/window.outerHeight
-    }   
-
+        // image1.style.scale = (((window.scrollY - (1*window.outerHeight))/10*window.outerHeight), (window.scrollY - (1*window.outerHeight))/10*window.outerHeight))
+        // image2.style.scale = (((window.scrollY - (2*window.outerHeight))/10*window.outerHeight), (window.scrollY - (2*window.outerHeight))/10*window.outerHeight))
+        // image3.style.scale = (((window.scrollY - (3*window.outerHeight))/10*window.outerHeight), (window.scrollY - (3*window.outerHeight))/10*window.outerHeight))
+        // image4.style.scale = (((window.scrollY - (4*window.outerHeight))/10*window.outerHeight), (window.scrollY - (4*window.outerHeight))/10*window.outerHeight))
+    } 
   return (
     <div className="projects" onWheel={change} id="projects">
       <div className="project-images">
-        <img className="image1" src={hmsImage} alt="" style={{"zIndex": "1", "opacity": "0"}}/>
-        <img className="image2" src={bookImage} alt="" style={{"zIndex": "2", "opacity": "0"}}/>
-        <img className="image3" src={wdImage} alt="" style={{"zIndex": "3", "opacity": "0"}}/>
-        <img className="image4" src={tttImage} alt="" style={{"zIndex": "4", "opacity": "0"}}/>
+        <img className="image1" src={hmsImage} alt="" style={{"zIndex": "1"}}/>
+        <img className="image2" src={bookImage} alt="" style={{"zIndex": "2"}}/>
+        <img className="image3" src={wdImage} alt="" style={{"zIndex": "3"}}/>
+        <img className="image4" src={tttImage} alt="" style={{"zIndex": "4"}}/>
       </div>
       <div className="project-description">
         <div>

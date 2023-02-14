@@ -34,9 +34,9 @@ const Header = () => {
         </div>
         <Hamburger />
         <ul className="menu">
-            <li onClick={toggleHamburger}><a href="#about-container" rel="norefferal">About</a></li>
-            <li onClick={toggleHamburger}><a href="#projects" rel="norefferal">Project</a></li>
-            <li onClick={toggleHamburger}><a href="https://github.com/Persistent-A/Resume/raw/main/Apurva_Resume_2023.pdf" rel="norefferal">Resume</a></li>
+          <li onClick={toggleHamburger}><a href="#about-container" rel="norefferal">About</a></li>
+          <li onClick={toggleHamburger}><a href="#projects" rel="norefferal">Project</a></li>
+          <li onClick={toggleHamburger}><a href="https://github.com/Persistent-A/Resume/raw/main/Apurva_Resume_2023.pdf" rel="norefferal">Resume</a></li>
         </ul>
     </nav>
   )
