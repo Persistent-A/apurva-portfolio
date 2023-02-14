@@ -4,6 +4,9 @@ import bookImage from "../image/BookArenaFront.png"
 import wdImage from "../image/WeDesignFront.png"
 import tttImage from "../image/tttDesktop.png"
 
+// ICONS
+import {FiExternalLink, FiGithub } from "react-icons/fi"
+
 // HOOKS
 // import { useState } from "react"
 
@@ -30,7 +33,13 @@ const Projects = () => {
       <div className="project-description">
         <div>
             <div>Hospital Management System</div>
-            <div>2022</div>
+            <div>
+              <div>2022</div>
+              <div>
+                <a href="https://github.com/Persistent-A/MERN" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
+                <a href="https://hms-7lax.onrender.com" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+              </div>
+            </div>
             <img className="responsive_project_image" src={hmsImage} alt=""/>
             <div>
                 The accessibility of the patients to book an appointment from the portal.
@@ -41,7 +50,13 @@ const Projects = () => {
         </div>
         <div>
             <div>bookArena</div>
-            <div>2021</div>
+            <div>
+              <div>2021</div>
+              <div>
+                <a href="https://github.com/Persistent-A/bookArena" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
+                <a href="https://bookarena-n44l.onrender.com" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+              </div>
+            </div>
             <img className="responsive_project_image" src={bookImage} alt=""/>
             <div>
                 An app to add the book information to the database.
@@ -53,7 +68,13 @@ const Projects = () => {
         </div>
         <div>
             <div>WeDesign</div>
-            <div>2021</div>
+            <div>
+              <div>2022</div>
+              <div>
+                <a href="https://github.com/Persistent-A/WeDesign" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
+                <a href="https://we-design.vercel.app/" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+              </div>
+            </div>
             <img className="responsive_project_image" src={wdImage} alt=""/>
             <div>
                 The web Application serves an organization advertisements 
@@ -63,7 +84,13 @@ const Projects = () => {
         </div>
         <div>
             <div>Tic Tac Toe</div>
-            <div>2021</div>
+            <div>
+              <div>2021</div>
+              <div>
+                <a href="https://github.com/Persistent-A/Tic_Tac_Toe" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
+                <a href="https://tic-tac-toe-tu3j.onrender.com" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+              </div>
+            </div>
             <img className="responsive_project_image" src={tttImage} alt=""/>
             <div>
                 A two Player game renders user to modify their name and also tracks number 

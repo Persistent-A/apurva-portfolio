@@ -351,6 +351,13 @@ a {
 }
 
 .project-description div div:nth-of-type(2) {
+  display: flex;
+  align-items: flex-end;
+
+  margin-top: 16px;
+}
+
+.project-description div div:nth-of-type(2) div:nth-of-type(1) {
     margin: 0;
     line-height: 100%;
     letter-spacing: -0.01em;
@@ -358,6 +365,28 @@ a {
     margin-left: -4px;
     margin-top: 16px;
     font-size: calc(68px + 68 * ((100vw - 320px) / 1320));
+}
+
+.project-description div div:nth-of-type(2) div:nth-of-type(2) {
+  border: 1px solid #17e2ad;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  margin-left: 40px;
+}
+
+.project-description div div:nth-of-type(2) div:nth-of-type(2) > a{
+  color: #17e2ad;
+}
+
+.project-description div div:nth-of-type(2) div:nth-of-type(2) > a:hover {
+  color: rgb(240, 234, 234);
 }
 
 .project-description div div:nth-of-type(4) {
