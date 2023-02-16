@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Main />
       <About />
-      <h1  className="project-heading">Some Of My Implementations</h1>
+      <h1 className="project-heading" id="project-heading">Some Of My Implementations</h1>
       <Projects />
       <Footer />
     </div>
