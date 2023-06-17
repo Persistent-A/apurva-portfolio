@@ -44,7 +44,7 @@ const Projects = () => {
               <div>2022</div>
               <div>
                 <a href="https://github.com/Persistent-A/MERN" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
-                <a href="https://hms-7lax.onrender.com" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+                <a href="https://hms-persistent-a.vercel.app/" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
               </div>
             </div>
             <img className="responsive_project_image" src={hmsImage} alt=""/>
@@ -61,7 +61,7 @@ const Projects = () => {
               <div>2021</div>
               <div>
                 <a href="https://github.com/Persistent-A/bookArena" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
-                <a href="https://bookarena-n44l.onrender.com" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+                <a href="http://apurvaa.pythonanywhere.com/" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
               </div>
             </div>
             <img className="responsive_project_image" src={bookImage} alt=""/>

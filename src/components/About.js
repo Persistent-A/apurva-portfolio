@@ -37,7 +37,7 @@ const About = () => {
                     </div>
                 </div>  
                 <div className="resume">
-                  <a href="https://github.com/Persistent-A/Resume/raw/main/Apurva_Resume_2023.pdf" target='_blank' rel="noopener noreferrer">Download CV</a>
+                  <a href="https://github.com/Persistent-A/CV/raw/main/Apurva_Resume_Full_Stack.pdf" target='_blank' rel="noopener noreferrer">Download CV</a>
                 </div>
               </div>
             </div>
