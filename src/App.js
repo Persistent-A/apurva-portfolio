@@ -4,6 +4,7 @@ import About from "./components/About";
 import Main from  "./components/Main"
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <h1 className="project-heading" id="project-heading">Some Of My Implementations</h1>
       <Projects />
+      <Experience/>
       <Footer />
     </div>
   );
