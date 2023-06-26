@@ -225,7 +225,7 @@ a {
   margin: 0 auto;
   min-height: 90vh;
   padding: 12vh 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .about-intro, .experience-heading {
@@ -762,6 +762,7 @@ a {
     width: 90%;
     margin: 0 auto;
     height: auto;
+    
   }
 
   .about-intro {
