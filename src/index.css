@@ -761,8 +761,8 @@ a {
 
   .about-container {
     width: 90%;
-    margin: 0 auto;
-    height: auto;
+    margin: 150px auto 0 auto;
+    min-height: 100vh;
   }
 
   .about-intro {
