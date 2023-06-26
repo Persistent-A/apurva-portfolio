@@ -220,11 +220,12 @@ a {
 
 /* ABOUT SECTION */
 
-.about-container, .experience-container{
+.about-container{
   width: 840px;
   margin: 0 auto;
   min-height: 90vh;
   padding: 12vh 0;
+  border: 1px solid red;
 }
 
 .about-intro, .experience-heading {
@@ -330,8 +331,12 @@ a {
 
 /* Experience Section */
 .experience-container{
+  width: 840px;
+  margin: 0 auto;
   min-height: 90vh;
+  padding: 12vh 0;
 }
+
 
 .experience-content{
   text-align: start;
@@ -497,11 +502,13 @@ a {
 /* FOOTER SECTION */
 .footer {
   color: #90f5d0;
-  padding: 32px 68px;
+  padding: 50px 68px;
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  /* border: 1px solid red; */
+  height: 30vh;
 }
 
 .footer div:nth-of-type(1)::after {
@@ -541,6 +548,11 @@ a {
 .footer div:nth-of-type(2) div:nth-of-type(1) > a {
   color: #82f8ce;
   font-size: 25px;
+}
+.footer-dev{
+  margin-top: 16px;
+  /* border: 1px solid red; */
+  /* width: 200px */
 }
 /* DESKTOP VIEW */
 @media only screen and (max-width: 3441px) and (min-width: 1801px) {
@@ -919,6 +931,6 @@ a {
 
 @media only screen and (max-width: 290px) {
   .about-container {
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
