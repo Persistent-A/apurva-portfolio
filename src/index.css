@@ -683,6 +683,7 @@ a {
   .header {
     /* padding: 10px; */
     padding: 50px 0;
+    border: 1px solid red;;
   }
 
   .hamburger-icon {
@@ -762,11 +763,12 @@ a {
     width: 90%;
     margin: 0 auto;
     height: auto;
-    
   }
 
   .about-intro {
     padding: 0;
+    /* border: 1px solid red; */
+    margin-top: 50px
   }
 
   .about {
