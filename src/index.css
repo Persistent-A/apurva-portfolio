@@ -176,6 +176,7 @@ a {
   font-family: sans-serif;
   width: 80%;
   margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 .main div:nth-of-type(1) {
@@ -193,7 +194,7 @@ a {
 .main div:nth-of-type(3) {
   font-size: calc(26px + 20 * ((50vw - 320px) / 1320));
   margin-bottom: 50px;
-  max-width: 720px;
+  /* max-width: 720px; */
   color: #17e2ad;
 
   letter-spacing: 0.024em;

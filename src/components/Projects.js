@@ -44,7 +44,7 @@ const Projects = () => {
               <div>2022</div>
               <div>
                 <a href="https://github.com/Persistent-A/MERN" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
-                <a href="https://hms-persistent-a.vercel.app/" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+                <a href="https://hms-j64zf4xm4-persistent-a.vercel.app/" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
               </div>
             </div>
             <img className="responsive_project_image" src={hmsImage} alt=""/>
@@ -95,7 +95,7 @@ const Projects = () => {
               <div>2021</div>
               <div>
                 <a href="https://github.com/Persistent-A/Tic_Tac_Toe" target='_blank' rel="noopener noreferrer"><FiGithub /></a>
-                <a href="https://tic-tac-toe-tu3j.onrender.com" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
+                <a href="https://tic-tac-toe-persistent-a.vercel.app/" target='_blank' rel="noopener noreferrer"><FiExternalLink /></a>
               </div>
             </div>
             <img className="responsive_project_image" src={tttImage} alt=""/>
