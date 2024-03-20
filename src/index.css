@@ -91,7 +91,7 @@ a {
   background-color: #001f23;
 
   font-size: 20px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   transition: top 0.5s;
   color: #82f8ce;
@@ -122,6 +122,7 @@ a {
   letter-spacing: 0.8px;
   line-height: 150%;
   font-weight: 400;
+  font-family: "Madimi One", sans-serif;
 }
 
 .header li:hover {
@@ -133,11 +134,18 @@ a {
   align-items: center;
 }
 
-.menu > li a {
+.menu > li a > span:nth-of-type(1) {
   color: #17e2ad;
+  margin-right: 2px;
 }
 
-.menu li:nth-of-type(3) a {
+.menu > li a {
+  color: #e4fff8;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.menu li:nth-of-type(5) a {
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(
@@ -160,6 +168,10 @@ a {
   text-align: center;
 }
 
+.menu > li a:hover {
+  color: #17e2ad;
+}
+
 .moveUp {
   top: -100%;
   transition: top 1.2s;
@@ -176,25 +188,38 @@ a {
   font-family: sans-serif;
   width: 80%;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 .main div:nth-of-type(1) {
-  font-size: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #e4fff8;
+  display: flex;
+  flex-direction: column;
+}
+
+.main div:nth-of-type(1) > span:nth-of-type(1) {
+  color: #17e2ad;
+  margin-bottom: 30px;
+  font-family: "Madimi One", sans-serif;
+}
+
+.main div:nth-of-type(1) > span:nth-of-type(2) {
+  font-size: 70px;
+  font-weight: 800;
+  /* font-family: 'Madimi One', sans-serif; */
 }
 
 .main div:nth-of-type(2) {
-  font-size: 35px;
-  margin-bottom: 25px;
+  font-size: 70px;
+  margin-bottom: 30px;
   color: #89a49d;
+  font-family: "Madimi One", sans-serif;
 }
 
 .main div:nth-of-type(3) {
-  font-size: calc(26px + 20 * ((50vw - 320px) / 1320));
+  font-size: calc(16px + 20 * ((50vw - 320px) / 1320));
   margin-bottom: 50px;
-  /* max-width: 720px; */
+
   color: #17e2ad;
 
   letter-spacing: 0.024em;
@@ -220,7 +245,7 @@ a {
 
 /* ABOUT SECTION */
 
-.about-container{
+.about-container {
   width: 840px;
   margin: 0 auto;
   min-height: 90vh;
@@ -228,15 +253,17 @@ a {
   /* border: 1px solid red; */
 }
 
-.about-intro, .experience-heading {
+.about-intro,
+.experience-heading {
   margin-bottom: 50px;
   color: #e4fff8;
 }
 
-.about-intro p:nth-of-type(1), .experience-heading {
+.about-intro p:nth-of-type(1),
+.experience-heading {
   font-weight: bold;
   font-size: 40px;
-  font-family: sans-serif;
+  font-family: "Madimi One", sans-serif;
 }
 
 .about-intro p:nth-of-type(2) {
@@ -280,7 +307,8 @@ a {
   width: 65%;
 }
 
-.about-description > div:nth-of-type(1), .experience-content > div:nth-of-type(1){
+.about-description > div:nth-of-type(1),
+.experience-content > div:nth-of-type(1) {
   font-size: 20px;
 }
 
@@ -300,7 +328,7 @@ a {
   text-align: start;
   font-weight: 900;
   font-size: 15px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Madimi One", sans-serif;
 }
 
 .skills div:nth-of-type(2) {
@@ -314,31 +342,81 @@ a {
 }
 
 .resume {
-  width: 175px;
+  width: 200px;
   font-size: 20px;
-  background-color: transparent;
+  background-color: #01282d;
   padding: 15px 15px;
   color: #17e2ad;
   border-radius: 5px;
   text-align: center;
   border: 1px solid #17e2ad;
   margin-top: 35px;
+
+  transition: background-color 0.5s ease;
 }
 
 .resume > a {
   color: #17e2ad;
+  font-family: "Madimi One", sans-serif;
 }
 
+.resume:hover {
+  background-color: #17e2ad;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.resume:hover .download-cv-btn {
+  color: #001f23;
+}
+
+/* @keyframes color-change {
+  0% {
+    background-color: #01282d;
+    transform: ;
+  }
+  100% {
+    background-color: #17e2ad;
+    transform: ;
+  }
+} */
+
 /* Experience Section */
-.experience-container{
+.experience-container {
   width: 840px;
   margin: 0 auto;
   min-height: 90vh;
   padding: 12vh 0;
 }
 
+.experience-section {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
 
-.experience-content{
+.experience-companies {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-companies > button {
+  background-color: transparent;
+  border: none;
+  color: #525e65;
+  width: 100px;
+  height: 50px;
+
+  text-align: left;
+  padding-left: 20px;
+}
+
+.experience-companies > button:hover {
+  background-color: #01282d;
+  color: #17e2ad;
+}
+
+.experience-content {
   text-align: start;
   font-family: "A Pompadour W05 Regular", "Helvetica Neue Light",
     "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -346,7 +424,7 @@ a {
   letter-spacing: 0.7px;
 }
 
-.experience-content > div:nth-of-type(1){
+.experience-content > div:nth-of-type(1) {
   font-size: 30px;
   margin-bottom: 30px;
 }
@@ -370,9 +448,16 @@ a {
   color: #e4fff8;
   width: 80%;
   margin: 50px auto;
+  font-family: "Madimi One", sans-serif;
 }
 
-.project-heading::after, .experience-heading::after {
+h1 > span:nth-of-type(1),
+p > span:nth-of-type(1) {
+  color: #17e2ad;
+}
+
+.project-heading::after,
+.experience-heading::after {
   content: "";
   display: block;
   background-color: #aeb3be;
@@ -430,8 +515,10 @@ a {
 .project-description div div:nth-of-type(1) {
   line-height: 116%;
   letter-spacing: 0.02em;
-  font-family: "A Pompadour Bold W00 Regular", "Helvetica Neue Light",
-    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Madimi One", sans-serif;
+
+  /* font-family: "A Pompadour Bold W00 Regular", "Helvetica Neue Light",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
   font-size: calc(24px + 14 * ((100vw - 320px) / 1320));
 }
 
@@ -549,7 +636,7 @@ a {
   color: #82f8ce;
   font-size: 25px;
 }
-.footer-dev{
+.footer-dev {
   margin-top: 16px;
   /* border: 1px solid red; */
   /* width: 200px */
@@ -570,8 +657,6 @@ a {
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1900px) {
-  
-
   .project-description > div {
     height: 1200vh;
   }
@@ -661,7 +746,6 @@ a {
     font-size: 8px;
     margin-right: 5px;
   }
-  
 
   .project-description > div {
     height: 100vh;
@@ -672,7 +756,7 @@ a {
     display: flex;
   }
   .experience-container {
-    width: 90%
+    width: 90%;
   }
 }
 
@@ -766,7 +850,7 @@ a {
   .about-intro {
     padding: 0;
     /* border: 1px solid red; */
-    margin-top: 50px
+    margin-top: 50px;
   }
 
   .about {
@@ -822,12 +906,13 @@ a {
   }
 
   .experience-container {
-    width: 90%
+    width: 90%;
   }
 
   /* PROJECT SECTION */
 
-  .project-heading, .experience-heading {
+  .project-heading,
+  .experience-heading {
     width: 90%;
     font-weight: bold;
     font-size: 37px;
@@ -841,7 +926,7 @@ a {
     width: 60%;
   }
 
-  .project-heading::after{
+  .project-heading::after {
     content: "";
     display: block;
     background-color: #aeb3be;
