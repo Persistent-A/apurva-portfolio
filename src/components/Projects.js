@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
+import craftsmenImage from "../image/the_craftsmen.png";
 import hmsImage from "../image/hms-background.png";
 import bookImage from "../image/BookArenaFront.png";
-import wdImage from "../image/WeDesignFront.png";
 import tttImage from "../image/tttDesktop.png";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 
@@ -64,17 +64,52 @@ const Projects = () => {
   return (
     <div className="projects" id="projects">
       <div className="project-images">
-        <img className="image1" src={hmsImage} alt="" style={{ zIndex: "1" }} />
         <img
-          className="image2"
+          className="image1"
+          src={craftsmenImage}
+          alt=""
+          style={{ zIndex: "1" }}
+        />
+        <img className="image2" src={hmsImage} alt="" style={{ zIndex: "2" }} />
+        <img
+          className="image3"
           src={bookImage}
           alt=""
-          style={{ zIndex: "2" }}
+          style={{ zIndex: "3" }}
         />
-        <img className="image3" src={wdImage} alt="" style={{ zIndex: "3" }} />
         <img className="image4" src={tttImage} alt="" style={{ zIndex: "4" }} />
       </div>
       <div className="project-description">
+        <div>
+          <div>The Craftsmen</div>
+          <div>
+            <div>2024</div>
+            <div>
+              <a
+                href="https://github.com/Persistent-A/The_Craftsmen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FiGithub />
+              </a>
+              <a
+                href="https://the-craftsmen.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FiExternalLink />
+              </a>
+            </div>
+          </div>
+          <img className="responsive_project_image" src={hmsImage} alt="" />
+          <div>
+            The app provides imformation about the services provided by an
+            organisation. Developed the app to test the knowledge of my HTML5,
+            CSS3 and Javascript fundamentals to create appealing web
+            transitions.
+          </div>
+          <div>HTML5, CSS3, Javascript</div>
+        </div>
         <div>
           <div>Hospital Management System</div>
           <div>
@@ -88,7 +123,7 @@ const Projects = () => {
                 <FiGithub />
               </a>
               <a
-                href="https://hms-j64zf4xm4-persistent-a.vercel.app/"
+                href="https://hms-red.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -135,34 +170,6 @@ const Projects = () => {
             can also filter the books based on the price range.
           </div>
           <div>Python, Flask, HTML, CSS</div>
-        </div>
-        <div>
-          <div>WeDesign</div>
-          <div>
-            <div>2022</div>
-            <div>
-              <a
-                href="https://github.com/Persistent-A/WeDesign"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiGithub />
-              </a>
-              <a
-                href="https://we-design.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiExternalLink />
-              </a>
-            </div>
-          </div>
-          <img className="responsive_project_image" src={wdImage} alt="" />
-          <div>
-            An interactive and responsive web Application developed for an
-            organization to serve advertisement of their business model.
-          </div>
-          <div>HTML, CSS, Javascript</div>
         </div>
         <div>
           <div>Tic Tac Toe</div>
